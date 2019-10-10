@@ -15,10 +15,11 @@ const SpaceCard = props => {
 
         <div >
             <Card width='70%'>
+                <CardTitle>{props.title}</CardTitle>
                 <CardImg top width="70%" src={props.img} alt="Card image cap"/>
                 <CardBody>
-                    <CardTitle>{props.title}</CardTitle>
                     <CardSubtitle>{props.date}</CardSubtitle>
+                    <CardText>Info</CardText>
                     <CardText>{props.text}</CardText>
                 </CardBody>
             </Card>
