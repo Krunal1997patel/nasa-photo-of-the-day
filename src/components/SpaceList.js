@@ -31,7 +31,7 @@ const SpaceList = props => {
             img={spaceImg.url}
             text={spaceImg.explanation}
             />
-        </div>
+        </div> 
     )
 }
 
